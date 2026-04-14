@@ -56,6 +56,8 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware', # <--- AGREGA ESTA
     'django.middleware.security.SecurityMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware
 ]
 
 ROOT_URLCONF = 'core.urls'
